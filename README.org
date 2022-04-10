@@ -1,0 +1,28 @@
+* excel-tracker
+work in progress xlsx-based [[https://en.wikipedia.org/wiki/Music_tracker][music tracker]]
+
+the idea is to write some excel file like this:
+
+|   |   |                  |   |                   |   |                  |
+|   |   |                  |   |                   |   |                  |
+|   |   |                  |   |                   |   |                  |
+|   |   |                  |   |                   |   |                  |
+|   |   | samples/kick.wav |   | samples/snare.wav |   | samples/beep.wav |
+|   |   | C3               |   |                   |   | C3               |
+|   |   |                  |   |                   |   | D#3              |
+|   |   | C3               |   | C3                |   | F3               |
+|   |   |                  |   |                   |   | F#3              |
+|   |   | C3               |   |                   |   | F3               |
+|   |   |                  |   |                   |   | D#3              |
+|   |   | C3               |   | C3                |   | C3               |
+|   |   |                  |   |                   |   |                  |
+|   |   | C3               |   |                   |   |                  |
+|   |   |                  |   |                   |   | A#2              |
+|   |   |                  |   |                   |   | D3               |
+|   |   |                  |   |                   |   | C3               |
+
+the program will load the samples and then generate =out.wav=
+
+currently stuff is hardcoded to load =test.xlsx= but it's gonna be changed in the future
+
+i'd like to add hot reloading and a bunch of really cool features
