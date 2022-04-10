@@ -1,0 +1,12 @@
+[package]
+name = "excel-tracker"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+calamine = "0.18.0"
+dasp = { git = "https://github.com/RustAudio/dasp/", branch = "master", features = ["all"] }
+hound = "3.4.0"
+mumuse = "0.7.0"
